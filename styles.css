@@ -2,25 +2,25 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Trispace', sans-serif;
 }
 
-h1,
-h2 {
+h1 {
+    color: #FFFFFF;
     font-weight: 700;
     letter-spacing: 1.5px;
 }
 
 p {
+    color: #bfbfbf;
     font-weight: 500;
-    letter-spacing: 0.5px;
+    letter-spacing: 1px;
 }
 
 body {
     width: 100%;
     height: 100vh;
-    color: #FFFFFF;
     text-align: center;
-    font-family: 'Trispace', sans-serif;
     background-image:
         linear-gradient(180deg,
             rgba(0, 0, 0, 0.5) 0%,
@@ -34,16 +34,16 @@ body {
 .container {
     width: 100%;
     height: 100%;
+    cursor: default;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 2rem;
-    cursor: default;
 }
 
 .logo__img {
-    width: 200px;
+    width: 150px;
     animation: logo 2s ease 0.25s both;
 }
 
@@ -70,7 +70,6 @@ body {
 }
 
 .container__info p {
-    color: #AFAFAF;
     font-size: 18px;
     animation: info 2s ease 2s both;
 }
@@ -88,8 +87,8 @@ body {
 }
 
 .container__button {
-    color: #fff;
-    font-size: 15px;
+    color: #FFFFFF;
+    font-size: 16px;
     padding: 10px 15px;
     border-radius: 15px;
     text-decoration: none;
@@ -99,9 +98,5 @@ body {
 }
 
 .container__button:hover {
-    background-color: #AFAFAF;
-    box-shadow:
-        0 0 10px 2px rgba(175, 175, 175, 0.5),
-        0 0 10px 4px rgba(175, 175, 175, 0.5),
-        0 0 10px 6px rgba(175, 175, 175, 0.5);
+    background-color: #8f8f8f;
 }
